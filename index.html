@@ -1,110 +1,137 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jasmine P. Ellson | Personal Website</title>
 
+    <title>Jasmine P. Ellson | Personal Portfolio</title>
 
-    <!-- Connect CSS -->
+    <!-- CSS Connection -->
     <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
 
-
+    <!-- Navigation -->
     <header>
-        <h1>Welcome to My Personal Website</h1>
-        <p>My Journey as an IT Student</p>
+        <nav class="navbar">
+            <h2 class="logo">Jasmine.</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <!-- Home Section -->
+    <section id="home" class="hero">
 
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#education">Education</a>
-        <a href="#goals">My Goals</a>
-        <a href="#github">My Project</a>
-    </nav>
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
 
+            <h1>Hello, I'm <span>Jasmine P. Ellson</span></h1>
 
-    <main>
-
-
-        <!-- ABOUT ME -->
-        <section id="about" class="card">
-            <img src="images/profile.jpg" alt="My Profile">
-                 alt="Jasmine's Profile Photo"
-                 class="profile">
-
-
-            <h2>About Me</h2>
-            <h3>Jasmine P. Ellson</h3>
-
+            <h3>Bachelor of Science in Information Technology</h3>
 
             <p>
-                Hello! I am an Information Technology student.
-                I enjoy learning about computers, programming,
-                and modern technology. I am always willing to
-                learn new things and improve my skills.
-            </p>
-        </section>
-
-
-        <!-- EDUCATION -->
-        <section id="education" class="card">
-            <h2>My Education</h2>
-
-
-            <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
-
-
-            <p><strong>Year and Section:</strong> 1ST YEAR BSIT 2-C</p>
-
-
-            <p><strong>School:</strong> Asian College</p>
-        </section>
-
-
-        <!-- GOALS -->
-        <section id="goals" class="card">
-            <h2>My Future Goals</h2>
-
-
-            <p>
-                My goal is to improve my programming skills,
-                learn new technologies, and become a successful
-                IT professional. I want to gain more knowledge
-                and experience that will help me achieve my dreams.
-            </p>
-        </section>
-
-
-        <!-- GITHUB PROJECT -->
-        <section id="github" class="card">
-            <h2>My GitHub Project</h2>
-
-
-            <p>
-                Visit my GitHub Desktop practice repository:
+                A cheerful BSIT student passionate about technology,
+                creativity, and learning new things.
             </p>
 
+            <a href="#about" class="btn">Discover More</a>
+        </div>
 
-            <a href="https://github.com/justminee12.github.io/github-desktop-practice"
-               target="_blank" rel="noopener noreferrer">
-                View My Part 1 Repository
+        <div class="hero-image">
+            <!-- YOUR PROFILE PHOTO -->
+            <img src="IMG_9581.jpeg"
+                 alt="Jasmine P. Ellson Profile Photo">
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hi! I'm Jasmine P. Ellson, a BSIT student from
+            BSIT-2C. I am a cheerful person who enjoys learning
+            about technology and developing new skills.
+
+            I am interested in web development, programming,
+            and creating useful digital projects. My goal is
+            to become a successful IT professional.
+        </p>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skill-container">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Creating website structures.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Designing and styling websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Programming</h3>
+                <p>Learning programming concepts.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+
+        <h2>Education</h2>
+
+        <div class="education-card">
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p>Section: BSIT-2C</p>
+            <p>Currently Studying</p>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Thank you for visiting my personal portfolio!</p>
+
+        <p>GitHub:
+            <a href="https://github.com/justminee12">
+                github.com/justminee12
             </a>
-        </section>
+        </p>
 
+        <p>Location: Mayabon, Zamboanguita</p>
 
-    </main>
+    </section>
 
-
+    <!-- Footer -->
     <footer>
-        <p>Created by Jasmine P. Ellson | 2026</p>
-        <p>BSIT Student | Asian College</p>
+        <p>© 2026 Jasmine P. Ellson | Personal Portfolio</p>
+        <p>BSIT-2C</p>
     </footer>
-
 
 </body>
 </html>
+
